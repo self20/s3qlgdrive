@@ -3,7 +3,7 @@
 echo "install compilation tools and dependencies"
 echo "Begining..."
 apt-get update -qq
-apt-get install -y git nano \
+apt-get install -y git nano curl \
    python3 python3-pip fuse psmisc pkg-config libattr1-dev libfuse-dev libsqlite3-dev libjs-sphinxdoc \
    texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-generic-extra \
    texlive-fonts-recommended
